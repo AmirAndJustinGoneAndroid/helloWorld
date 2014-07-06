@@ -4,5 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.helloworld.MainActivity"
-    tools:ignore="MergeRootFrame" />
+    tools:ignore="MergeRootFrame" >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/myface" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="#justinbeckergonewild" >
+
+        <requestFocus />
+    </EditText>
+
+</FrameLayout>
 
